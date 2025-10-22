@@ -2,3 +2,7 @@ baseURL = 'https:/kufnarr.github.io/klemmblog/'
 languageCode = 'de-de'
 title = 'klemmblog'
 theme = 'ananke'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
