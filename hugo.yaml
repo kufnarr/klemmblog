@@ -39,7 +39,6 @@ params:
       light: '#ffffff'
       dark: '#101010'
 
-params:
   customCSS:
     - css/override.css
     - css/home.css   # falls nötig
