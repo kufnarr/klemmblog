@@ -2,11 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>klemmblog</title>
-    <link>https:/kufnarr.github.io/klemmblog/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on klemmblog</description>
     <generator>Hugo</generator>
-    <language>de-de</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https:/kufnarr.github.io/klemmblog/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language>
+    <lastBuildDate>Sat, 06 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>//localhost:1313/blog/hello-world/</link>
+      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/hello-world/</guid>
+      <description>My first blog post.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/about/</guid>
+      <description>About</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>//localhost:1313/blog/hello-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/hello-world/</guid>
+      <description>Hello World Summary</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>//localhost:1313/docs/hello-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/hello-world/</guid>
+      <description>Hello World</description>
+    </item>
+    <item>
+      <title>Modules</title>
+      <link>//localhost:1313/docs/modules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/modules/</guid>
+      <description>Module</description>
+    </item>
+    <item>
+      <title>Overview</title>
+      <link>//localhost:1313/docs/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/overview/</guid>
+      <description>About me I am an expat working in Singapore as a Go Backend and DevOps Engineer. Feel free to reach out if you find any mistakes or anything that needs to be changed, including spelling or grammar errors. Alternatively, you can create a pull request, open an issue, or share your awesome ideas in this gist. Good luck with learning Rust!&#xA;Ueberschrift 2 Some Text&#xA;I am an expat working in Singapore as a Go Backend and DevOps Engineer.</description>
+    </item>
   </channel>
 </rss>

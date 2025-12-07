@@ -2,14 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https:/kufnarr.github.io/klemmblog/</loc>
-    <lastmod>2024-01-14T07:07:07+01:00</lastmod>
+    <loc>//localhost:1313/blog/</loc>
+    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https:/kufnarr.github.io/klemmblog/posts/</loc>
-    <lastmod>2024-01-14T07:07:07+01:00</lastmod>
+    <loc>//localhost:1313/blog/hello-world/</loc>
+    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https:/kufnarr.github.io/klemmblog/categories/</loc>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https:/kufnarr.github.io/klemmblog/tags/</loc>
+    <loc>//localhost:1313/about/</loc>
+  </url><url>
+    <loc>//localhost:1313/categories/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/</loc>
+  </url><url>
+    <loc>//localhost:1313/blog/hello-world/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/hello-world/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/modules/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/overview/</loc>
+  </url><url>
+    <loc>//localhost:1313/page/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
   </url>
 </urlset>

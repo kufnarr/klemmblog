@@ -1,0 +1,26 @@
+/* Override cursor globally */
+html, body, * {
+    cursor: auto !important;
+}
+
+/* Change theme colors */
+:root {
+    --theme-light-bg: #ffffff;
+    --theme-dark-bg: #101010;
+    --theme-accent: #0050ff;
+    --theme-text: #222;
+}
+
+/* Buttons */
+button, .btn {
+    background: var(--theme-accent) !important;
+    color: white !important;
+    border-radius: 6px !important;
+}
+
+/* Navigation */
+nav a {
+    color: var(--theme-text) !important;
+}
+
+

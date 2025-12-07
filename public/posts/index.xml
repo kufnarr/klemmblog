@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on klemmblog</title>
-    <link>https:/kufnarr.github.io/klemmblog/posts/</link>
+    <link>//localhost:1313/kufnarr.github.io/klemmblog/posts/</link>
     <description>Recent content in Posts on klemmblog</description>
     <generator>Hugo</generator>
     <language>de-de</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https:/kufnarr.github.io/klemmblog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/kufnarr.github.io/klemmblog/posts/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
