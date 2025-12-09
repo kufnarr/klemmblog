@@ -1,3 +1,18 @@
 /public/
 /resources/
 .hugo_build.lock
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+
+# Node/npm (falls dein Theme CSS kompiliert)
+node_modules/
+package-lock.json
+
+# VS Code
+.vscode/
+
+# Hugo cache
+hugo_cache/
+.cache/
