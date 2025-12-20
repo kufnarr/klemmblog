@@ -16,3 +16,6 @@ package-lock.json
 # Hugo cache
 hugo_cache/
 .cache/
+
+#bkups
+/assets/css/.bkup*

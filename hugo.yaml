@@ -49,9 +49,9 @@ params:
     url: https://github.com/kufnarr
 
   home:
-    heading: Your next
-    headingSegment2: Theme
-    description: Description
+    heading: · Lesen
+    headingSegment2: · Schreiben
+    description: Gute (wissenschaftliche) Texte entstehen nicht allein beim Schreiben. Ich unterstütze bei der Recherche, beim Sortieren der Ideen und Gedanken und beim Schreiben selbst. 
     getStartedPath: docs/
 
   enableOGXSEO: false
