@@ -5,7 +5,7 @@ theme: E25DX
 enableGitInfo: false
 defaultContentLanguage: de
 defaultContentLanguageInSubdir: true
-disableDefaultLanguageRedirect: true
+disableDefaultLanguageRedirect: false
 
 languages:
   de:
