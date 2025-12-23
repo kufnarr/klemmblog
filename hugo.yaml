@@ -1,5 +1,6 @@
 baseURL: "https://kufnarr.github.io/klemmblog/"
-canonifyURLs: true
+canonifyURLs: false    # Ändere das auf false
+relativeURLs: true     # Ändere das auf true
 theme: E25DX
 enableGitInfo: false
 defaultContentLanguage: de
