@@ -33,12 +33,12 @@ languages:
         - identifier: blog
           name: Blog
           pre: <i aria-hidden>🖊️</i>
-          pageRef: blog/
+          pageRef: /blog/
           weight: 3
         - identifier: about
           name: Über mich
           pre: <i aria-hidden>🧑‍💻</i>
-          pageRef: page/about
+          pageRef: /page/about
           weight: 4
 
   en:
