@@ -22,22 +22,23 @@ languages:
         - identifier: home
           name: Home
           pre: <i aria-hidden>🏡</i>
-          url: ./
+          pageRef: /
           weight: 1
         - identifier: docs
           name: Dokumentation
           pre: <i aria-hidden>📖</i>
+          # pageRef: docs
           url: docs/
           weight: 2
         - identifier: blog
           name: Blog
           pre: <i aria-hidden>🖊️</i>
-          url: blog/
+          pageRef: /blog/
           weight: 3
         - identifier: about
           name: Über mich
           pre: <i aria-hidden>🧑‍💻</i>
-          url: page/about/
+          pageRef: /page/about
           weight: 4
 
   en:
