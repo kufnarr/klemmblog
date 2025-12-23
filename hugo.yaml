@@ -37,7 +37,7 @@ languages:
         - identifier: about
           name: Über mich
           pre: <i aria-hidden>🧑‍💻</i>
-          url: page/about/
+          url: page/about
           weight: 4
 
   en:
