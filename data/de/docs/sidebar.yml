@@ -1,0 +1,24 @@
+- title: "Einstieg"
+  replaceFirstPageTitle: "Willkommen Übersicht" # Optional: Ändert den Text des ersten Links
+  pages:
+    - title: "index"          # Hugo macht daraus intern "hallo"
+    - title: "Hallo"   # Hugo macht daraus intern "mein-projekt"
+    - title: "Installation"   # Hugo macht daraus intern "installation"
+
+- title: "Module"
+  pages:
+    - title: "Moduledeutsch"  # Sucht nach content/de/docs/moduledeutsch.md
+    
+    ###############
+
+- title: "Meine Doku Übersicht"
+  pages:
+    - title: "Meine Doku Übersicht"
+
+- title: Basics
+  pages:
+    - title: Hallodeutsch
+
+- title: Module deutsch
+  pages:
+    - title: Moduledeutsch

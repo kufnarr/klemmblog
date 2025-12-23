@@ -1,11 +1,5 @@
-- title: Documentation
+- title: "Getting Started"
+  replaceFirstPageTitle: "Welcome Overview"
   pages:
-    - title: Overview
-
-- title: Basics
-  pages:
-    - title: Hello World
-
-- title: Beyond The Basics
-  pages:
-    - title: Modules
+    - title: "docs"
+    - title: "Hello"

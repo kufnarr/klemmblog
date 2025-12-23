@@ -10,7 +10,7 @@ body {
 
   color: var(--color);
   background: var(--background);
-  font-family: var(--font-sans);
+  font-family: "Carlito" /* var(--font-sans); */
 }
 
 #content-wrapper {

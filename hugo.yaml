@@ -1,18 +1,73 @@
 theme: E25DX
-
 enableGitInfo: false
-
-defaultContentLanguage: en
+defaultContentLanguage: de
+defaultContentLanguageInSubdir: true
+disableDefaultLanguageRedirect: true
 
 languages:
-  en:
+  de:
     weight: 1
+    languageName: Deutsch
+    languageCode: de-DE
+    contentDir: content/de
+    disabled: false
+    title: klemmblog-de
+    params:
+      description: Schreibcoaching
+    menus:
+      main:
+        - identifier: home
+          name: Home
+          pre: <i aria-hidden>🏡</i>
+          pageRef: /
+          weight: 1
+        - identifier: docs
+          name: Dokumentation
+          pre: <i aria-hidden>📖</i>
+          pageRef: /docs/
+          weight: 2
+        - identifier: blog
+          name: Blog
+          pre: <i aria-hidden>🖊️</i>
+          pageRef: blog
+          weight: 3
+        - identifier: about
+          name: Über mich
+          pre: <i aria-hidden>🧑‍💻</i>
+          pageRef: page/about
+          weight: 4
+
+  en:
+    weight: 2
     languageName: English
     languageCode: en-US
     contentDir: content/en
-    title: klemmblog
+    disabled: false
+    title: klemmblog-en
     params:
-      description: Site Description
+      description: Writing Coaching
+    menus:
+      main:
+        - identifier: home
+          name: Home
+          pre: <i aria-hidden>🏡</i>
+          pageRef: /
+          weight: 1
+        - identifier: docs
+          name: Docs
+          pre: <i aria-hidden>📖</i>
+          pageRef: /docs/
+          weight: 2
+        - identifier: blog
+          name: Blog
+          pre: <i aria-hidden>🖊️</i>
+          pageRef: blog
+          weight: 3
+        - identifier: about
+          name: About
+          pre: <i aria-hidden>🧑‍💻</i>
+          pageRef: page/about
+          weight: 4
 
 services:
   googleAnalytics:
@@ -31,51 +86,25 @@ markup:
 
 params:
   project:
-    startYear: 2022
+    startYear: 2025
     presentYear: 2025
     github:
-      repo: username/repo
+      repo: kufnarr/klemmblog
     themeColor:
       light: '#ffffff'
       dark: '#101010'
-
   customCSS:
     - css/override.css
-    - css/home.css   # falls nötig
-
-
+    - css/home.css
   author:
     name: Daniel Kufner
     url: https://github.com/kufnarr
-
   home:
-    heading: · Lesen
+    heading: · Recherche
     headingSegment2: · Schreiben
-    description: Gute (wissenschaftliche) Texte entstehen nicht allein beim Schreiben. Ich unterstütze bei der Recherche, beim Sortieren der Ideen und Gedanken und beim Schreiben selbst. 
-    getStartedPath: docs/
-
+    description: >
+      (Wissenschaftliche) Texte entstehen nicht allein beim Schreiben.
+      Ich unterstütze bei der Recherche, beim Sortieren der Ideen und Gedanken
+      und beim Schreiben selbst.
+    getStartedPath: docs
   enableOGXSEO: false
-
-menus:
-  main:
-    - identifier: home
-      name: Home
-      pre: <i aria-hidden>🏡</i>
-      pageRef: /
-      weight: 1
-    - identifier: docs
-      name: Docs
-      pre: <i aria-hidden>📖</i>
-      pageRef: /docs
-      weight: 2
-    - identifier: blog
-      name: Blog
-      pre: <i aria-hidden>🖊️</i>
-      pageRef: /blog
-      weight: 3
-    - identifier: about
-      name: About
-      pre: <i aria-hidden>🧑‍💻</i>
-      pageRef: /page/about
-      weight: 4
-
