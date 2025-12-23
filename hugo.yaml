@@ -27,7 +27,8 @@ languages:
         - identifier: docs
           name: Dokumentation
           pre: <i aria-hidden>📖</i>
-          pageRef: docs
+          # pageRef: docs
+          url: /klemmblog/de/docs/
           weight: 2
         - identifier: blog
           name: Blog
