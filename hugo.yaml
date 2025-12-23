@@ -54,22 +54,22 @@ languages:
         - identifier: home
           name: Home
           pre: <i aria-hidden>🏡</i>
-          pageRef: /
+          url: ./
           weight: 1
         - identifier: docs
           name: Docs
           pre: <i aria-hidden>📖</i>
-          pageRef: docs
+          url: docs/
           weight: 2
         - identifier: blog
           name: Blog
           pre: <i aria-hidden>🖊️</i>
-          pageRef: blog
+          url: blog/
           weight: 3
         - identifier: about
           name: About
           pre: <i aria-hidden>🧑‍💻</i>
-          pageRef: page/about
+          url: page/about/
           weight: 4
 
 services:
